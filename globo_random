@@ -1,0 +1,15 @@
+!/bin/bash
+a[1]="curl -s https://g1.globo.com/busca/?q=foda-se"
+a[2]="curl -s https://g1.globo.com/busca/?q=esg"
+a[3]="curl -s https://g1.globo.com/busca/?q=problemas globo"
+a[4]="curl -s https://g1.globo.com/busca/?q=divida globo"
+a[5]="curl -s https://g1.globo.com/busca/?q=atores greve"
+
+while sleep 2s ;
+do
+
+nb=`echo $(( $RANDOM % 5 + 1 ))`
+
+#TINHA ESQUECIDO ESSA PORRA COM VARIAVEL
+${a[$nb]}
+done
