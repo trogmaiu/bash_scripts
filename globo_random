@@ -10,7 +10,6 @@ do
 
 nb=`echo $(( $RANDOM % 5 + 1 ))`
 
-#TINHA ESQUECIDO ESSA PORRA COM VARIAVEL
 #Lógica de programacao, só usar lógica
 ${a[$nb]}
 done
