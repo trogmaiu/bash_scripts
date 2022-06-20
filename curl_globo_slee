@@ -1,0 +1,2 @@
+while sleep 17s; do curl -s https://g1.globo.com/busca/?q=rede+globo+processos; while sleep 34s;do curl -s https://g1.globo.com/busca/?q=rede+globo+atores+pj;done;done 
+
